@@ -312,8 +312,27 @@ min-height: 200px;
   color: #174c93;
   font-weight: 400;
   line-height: 1.2;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 22px;
+}
+#es-lactacyd.es-lactacyd .es-effects__effectsCtn{
+margin: auto;
+padding: 1rem;
+}
+@media (min-width: 450px) {
+  #es-lactacyd.es-lactacyd .es-effects__effectsCtn{
+    max-width: 80%;
+    margin: unset;
+    }
+}
+@media (min-width: 600px) {
+  #es-lactacyd.es-lactacyd .es-effects {
+    height: 320px;
+  }
+  #es-lactacyd.es-lactacyd .es-effects__effectsCtn{
+    max-width: 55%;
+    margin-left: 3rem;
+    }
 }
 #es-lactacyd.es-lactacyd .es-effects__Ctn--title {
   font-size: 14px;
@@ -324,6 +343,21 @@ min-height: 200px;
 }
 #es-lactacyd.es-lactacyd .es-effects__list {
 list-style: none;
+margin-left: 2px;
+font-size: 16px;
+
+}
+#es-lactacyd.es-lactacyd .es-effects__list--li {
+  margin-left: -1rem;
+  padding-left: 0.5em;
+}
+#es-lactacyd.es-lactacyd .es-effects__list--li::marker {
+  content: '—';
+  font-size: 18px;
+  color: #2094cd;
+}
+#es-lactacyd.es-lactacyd .es-effects__footer {
+  font-size: 0.6rem;
 }
 #es-lactacyd.es-lactacyd .es-why__title {
   text-align: center;
